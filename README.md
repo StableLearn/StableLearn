@@ -14,8 +14,10 @@ Approaches based on machine learning and deep neural networks have demonstrated 
 
 **StableLearn** supports three types of model-agnostic methods to support general inference by handling distribution shifts including Sample reweighting, Data Heterogeneity and Optimization. 
 
+![avatar](Image/Shift.png)
 
-## [Sample Reweighting](./Sample%20Reweighting/)
+
+## [Sample Reweighting](./Sample_Reweighting/)
 
 Sample Reweighting approaches are model-agnostic that aims to handle the distribution shifts by assigning different weights to each sample. The reweighted data distribution tries to help the model achieving uniformly good performance under agnostic testing data.
 
@@ -27,7 +29,7 @@ Sample Reweighting approaches are model-agnostic that aims to handle the distrib
 
 - Deep Stable Learning for Out-Of-Distribution Generalization
 
-## [Data Heterogeneity](./Data%20Heterogeneity/)
+## [Data Heterogeneity](./Data_Heterogeneity/)
 
 ![avatar](Image/predictiveHeter.png)
 
