@@ -1,0 +1,8 @@
+##The following computing environment needs to be configured to run the code, which is recommended for installation and management by conda.
+python
+python-package torch
+python-package numpy 
+python-package math 
+python-package argparse
+python-package random
+

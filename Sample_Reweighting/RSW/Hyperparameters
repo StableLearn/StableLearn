@@ -1,0 +1,30 @@
+#Simulation data
+data_10_1000_2_6: 
+	--lambda1 0.01 --lambda2 10. --lambda3 1e5 --num_env 3 --bias --data_type 1
+data_10_1000_3_6:
+	--lambda1 0.01 --lambda2 10. --lambda3 1e5 --num_env 3 --bias --data_type 1
+data_10_1000_2_7:
+	--lambda1 0.01 --lambda2 0.01 --lambda3 1e8 --num_env 8 --data_type 1
+data_10_1000_2_8:
+	--lambda1 0.01 --lambda2 10. --lambda3 1e4 --num_env 5 --data_type 1
+data_20_1000_0.2:
+	--lambda1 0.01 --lambda2 0.01 --lambda3 1e8 --num_env 8 --bias --data_type 1
+data_30_1000_0.2: 
+	--lambda1 0.01 --lambda2 0.01 --lambda3 1e8 --num_env 8 --bias --data_type 1
+
+#Real data
+house.npy:
+	--lambda1 0.01 --lambda2 1. --lambda3 10 --num_env 8 --data_type 2
+adult_raceandsex.npy:
+	--lambda1 0.1 --lambda2 1000. --lambda3 50000 --num_env 8 --bias --data_type 3
+Colored MNIST
+  #Label flip ratio 0.2, color ratio 0.2
+  	--penalty_weight 34
+  #Label flip ratio 0.2, color ratio 0.1
+  	--penalty_weight 38
+  #Label flip ratio 0.25, color ratio 0.2
+  	--penalty_weight 40
+  #Label flip ratio 0.25, color ratio 0.1
+  	--penalty_weight 43
+  #keep the default values for other parameters.
+
