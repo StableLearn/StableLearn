@@ -23,26 +23,26 @@ Sample Reweighting approaches are model-agnostic that aims to handle the distrib
 
 ![avatar](Image/StableNet.png)
 
-- Stable Learning via Sparse Variable Independence
+- Stable Learning via Sparse Variable Independence (SVI)
 
-- Covariate-Shift Generalization via Random Sample Weighting
+- Covariate-Shift Generalization via Random Sample Weighting (RSW)
 
-- Deep Stable Learning for Out-Of-Distribution Generalization
+- Deep Stable Learning for Out-Of-Distribution Generalization (StableNet)
 
 ## [Data Heterogeneity](./Data_Heterogeneity/)
 
 ![avatar](Image/predictiveHeter.png)
 
-- Heterogeneous Risk Minimization
+- Heterogeneous Risk Minimization (HRM)
 
-- Kernelized Heterogeneous Risk Minimization 
+- Kernelized Heterogeneous Risk Minimization (KerHRM)
 
 ## [Optimization](./Optimization/)
 
 
-- Stable Adversarial Learning under Distributional Shifts
+- Stable Adversarial Learning under Distributional Shifts (SAL)
 
-- Gradient Norm Aware Minimization Seeks First-Order Flatness and Improves Generalization
+- Gradient Norm Aware Minimization Seeks First-Order Flatness and Improves Generalization (GAM)
 
 
 
