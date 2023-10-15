@@ -10,7 +10,7 @@
 4. [Optimization](#optimization)
 
 ## Introduction
-Approaches based on machine learning and deep neural networks have demonstrated excellent performance when training data and testing data share similar distribution. However, **distribution shifts** are ubiquitous in real world scenarios, resulting in a notable performance drop of conventional approaches. 
+Approaches based on machine learning and deep neural networks have demonstrated excellent performance when training data and testing data share similar distribution. However, **distribution shifts** are ubiquitous in real world scenarios, resulting in a **notable performance drop** of conventional approaches. 
 
 ![avatar](Image/Shift.jpg)
 
