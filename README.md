@@ -19,7 +19,7 @@ Approaches based on machine learning and deep neural networks have demonstrated 
 
 Sample Reweighting approaches are model-agnostic that aims to handle the distribution shifts by assigning different weights to each sample. The reweighted data distribution tries to help the model achieving uniformly good performance under agnostic testing data.
 
-<img src="https://github.com/StableLearn/StableLearn/Image/StableNet.png">
+![avatar](Image/StableNet.png)
 
 - Stable Learning via Sparse Variable Independence
 
@@ -28,7 +28,8 @@ Sample Reweighting approaches are model-agnostic that aims to handle the distrib
 - Deep Stable Learning for Out-Of-Distribution Generalization
 
 ## [Data Heterogeneity](./Data%20Heterogeneity/)
-<img src="https://github.com/StableLearn/StableLearn/Image/predictiveHeter.png">
+
+![avatar](Image/predictiveHeter.png)
 
 - Heterogeneous Risk Minimization
 
