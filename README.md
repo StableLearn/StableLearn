@@ -5,16 +5,17 @@
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Sample Reweighting](#1-sample-reweighting)
-3. [Data Heterogeneity](#2-data-heterogeneity)
-4. [Optimization](#3-optimization)
+2. [Sample Reweighting](#sample-reweighting)
+3. [Data Heterogeneity](#data-heterogeneity)
+4. [Optimization](#optimization)
 
 ## Introduction
-Approaches based on machine learning and deep neural networks have demonstrated excellent performance when training data and testing data share similar distribution. However, distribution shifts are ubiquitous in real world scenarios, resulting in a notable performance drop of conventional approaches. 
-
-**StableLearn** supports three types of model-agnostic methods to support general inference by handling distribution shifts including Sample reweighting, Data Heterogeneity and Optimization. 
+Approaches based on machine learning and deep neural networks have demonstrated excellent performance when training data and testing data share similar distribution. However, **distribution shifts** are ubiquitous in real world scenarios, resulting in a notable performance drop of conventional approaches. 
 
 ![avatar](Image/Shift.jpg)
+
+**StableLearn** supports three types of model-agnostic methods to support general inference by handling distribution shifts including **Sample reweighting, Data Heterogeneity and Optimization**. 
+
 
 
 ## [Sample Reweighting](./Sample_Reweighting/)
@@ -42,6 +43,8 @@ Another type of methods exploit data heterogeneity to formulate a new iterative 
 ## [Optimization](./Optimization/)
 
 This part focuses on a better optimization algorithm, either for distributional robustness, or for flatness. 
+
+![avatar](Image/GAM.png)
 
 - Stable Adversarial Learning under Distributional Shifts (SAL)
 
