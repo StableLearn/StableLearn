@@ -31,6 +31,8 @@ Sample Reweighting approaches are model-agnostic that aims to handle the distrib
 
 ## [Data Heterogeneity](./Data_Heterogeneity/)
 
+Another type of methods exploit data heterogeneity to formulate a new iterative procedure of risk minimization. The effect of identifying heterogeneity can be illustrated from this picture. 
+
 ![avatar](Image/predictiveHeter.png)
 
 - Heterogeneous Risk Minimization (HRM)
@@ -39,6 +41,7 @@ Sample Reweighting approaches are model-agnostic that aims to handle the distrib
 
 ## [Optimization](./Optimization/)
 
+This part focuses on a better optimization algorithm, either for distributional robustness, or for flatness. 
 
 - Stable Adversarial Learning under Distributional Shifts (SAL)
 
